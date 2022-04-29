@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-nav{
+margin-left: 70%;
+}
+
+.user{
+    color: white;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.img{
+    width: 100.19px;
+height: 100.29px;
+}
+.navbar-nav a{
+    color: white;
+display: flex;
+}
+.hello{
+    /* position: absolute; */
+    margin-top: 30px;
+    /* margin-left: 30px; */
+width: 181px;
+height: 60px;
+/* left: 87.53px;
+top: 200px; */
+background-color: skyblue;
+    border: 4px solid #FFFFFF;
+filter: drop-shadow(0px 0px 23.7037px #FB25FF);
+border-radius: 10px;
+transform: matrix(1, 0, -0.01, 1, 0, 0);
+}
+.userdetail{
+    margin-top: 5%;
+    color: white;
+    font-family: 'Montserrat Alternates';
+    /* margin-left: 30px; */
+    display: flex;
+    justify-content: space-between;
+    /* border: solid red; */
+    /* padding: 0px 40px; */
+
+}
+.views{
+    width: 170px;
+height: 40px;
+border: 4px solid #FFFFFF;
+filter: drop-shadow(0px 0px 23.7037px #FB25FF);
+transform: matrix(1, 0, -0.01, 1, 0, 0);
+background-color: skyblue;
+margin-top: 3%
+}
+.userdetails2{
+
+    /* width: 100%; */
+    /* background: url('Group 147.png'); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: contain;
+/* border: 1px solid #1149A0; */
+}
+.future{
+    border-radius: 30px;
+
+}
+
+
+@media only screen and (max-width:750px) {
+nav{
+    /* border:solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.collapse{
+    color: white;
+    /* background-color: white; */
+}
+.navbar-nav{
+    border: solid black;
+    margin-left: -3%;
+    font-size: 20px;
+}
+    .details{
+display: flex;
+flex-direction: column-reverse;
+    }
+.fa {
+font-size: 100px;
+color: white;
+}    
+}
